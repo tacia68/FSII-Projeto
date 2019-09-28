@@ -1,0 +1,44 @@
+INSERT INTO `alunos` (`alunos`, `matricula`, `nome`, `biometria`) VALUES (NULL, '21553601', 'ADELYANE LOBATO OSSAME', 'true'),
+(NULL, '21553602', 'ADRIANO LIMA DE SOUZA', 'true'),
+(NULL, '21553603', 'ANGELA MARIA FRAZAO DE ANDRADE', 'true'),
+(NULL, '21553604', 'ANTONIO CARLOS SOLANO MARTINS', 'true'),
+(NULL, '21553605', 'CLAUDETE LOPES DA SILVA', 'true'),
+(NULL, '21553606', 'DIEGO LIMA DOS SANTOS', 'true'),
+(NULL, '21553607', 'CLAUDETE LOPES DA SILVA', 'true'),
+(NULL, '21553608', 'EDMILSON DOS SANTOS LIMA', 'true'),
+(NULL, '21553609', 'ENI DIAS DE CARVALHO DELFINO', 'true'),
+(NULL, '21553610', 'FRANCISLANE DE SA BARBOSA DA SILVA', 'true');
+
+
+INSERT INTO `usuario` (`idusuario`, `usuario`, `senha`) VALUES (NULL, 'daniela', '123456'), 
+(NULL, 'vandermir', '123456'),
+(NULL, 'barata', '123456'),
+(NULL, 'odette', '123456'),
+(NULL, 'alternei', '123456'),
+(NULL, 'bruno', '123456'),
+(NULL, 'christopher', '123456'),
+(NULL, 'aurelio', '123456');
+
+INSERT INTO `professores` (`idprofessores`, `nomeProfessor`, `biometria`, `usuario_idusuario`) 
+VALUES (NULL, 'Daniela Costa Pereira', 'true', '1'),
+(NULL, 'Vandermir Silva Souza', 'true', '2'),
+(NULL, 'Antonio da Costa Barata', 'true', '3'), 
+(NULL, 'Odette Mestrinho Passos', 'true', '4'), 
+(NULL, 'Alternei da Costa Miranda', 'true', '5'), 
+(NULL, 'Bruno Passos Bonifacio', 'true', '6'), 
+(NULL, 'Christopher Xavier', 'true', '7'), 
+(NULL, 'Aurelio Junior', 'true', '8'); 
+
+INSERT INTO `disciplinas` (`iddisciplinas`, `nome`, `professores_idprofessores`, `alunos_alunos`) 
+VALUES (NULL, 'Engenharia de Software II', '1', '1'), 
+(NULL, 'Engenharia de Software II', '1', '2'),
+(NULL, 'Engenharia de Software II', '1', '3'),
+(NULL, 'Engenharia de Software II', '1', '4'),
+(NULL, 'Engenharia de Software II', '1', '5'),
+(NULL, 'Engenharia de Software II', '1', '6'),
+(NULL, 'Engenharia de Software II', '1', '7'),
+(NULL, 'Engenharia de Software II', '1', '8'),
+(NULL, 'Engenharia de Software II', '1', '9'),
+(NULL, 'Engenharia de Software II', '1', '10');
+
+
