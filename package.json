@@ -1,0 +1,30 @@
+{
+  "name": "fsii-projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tacia68/FSII-Projeto.git"
+  },
+  "author": "tacia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tacia68/FSII-Projeto/issues"
+  },
+  "homepage": "https://github.com/tacia68/FSII-Projeto#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}

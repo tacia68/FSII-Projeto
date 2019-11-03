@@ -1,2 +1,1 @@
-# FSII-Projeto
-Projeto em Desenvolvimento da Disciplina de Fábrica de Software II 
+# 2019.2- 
